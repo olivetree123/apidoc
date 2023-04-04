@@ -1,5 +1,54 @@
 # apiDoc Changelog
 
+### 0.54.0
+
+* Add cache busting system for assets with query parameter (PR #1333 by @Elysiome, fix #1332)
+* Let browser generate content-type for sending form-data (PR #1327 by @thenewvu, fix #1122, fix #1309, fix #1234)
+* Fix exclude filters option description: add note about always excluded files/folder
+* Improve assignment of conditional variable values (#1296 by MichalS)
+* Handle `@apiDefine` when producing warnings (PR #1305 by Lucas Cimon, fix #1305)
+* Update chinese translations (PR #1304 by Jony Young)
+
+### 0.53.1
+
+* Add tsx to default extensions parsed. (fix #1290)
+* Compare methods with lowercase strings (fix #1284)
+* Upgrade some dependencies
+
+### 0.53.0
+
+* Fix issue with aloneDisplay and non-ascii characters (#1273 by @KujoMiva)
+
+### 0.52.0
+
+* Allow cn, zh_cn or zh for Chinese language option and display meaningful message in console on error. fix #1248
+* Update example files to not display an error (#1210)
+* Update dependencies
+
+### 0.51.1
+
+* Fix incorrect warnings in some conditions (PR #1206 by @BrokenSourceCode, fix #1194)
+
+### 0.51.0
+
+* Emit warnings if there are inconsistencies in the apidoc params (PR #1189 by Lucas Cimon)
+* Dependencies update
+
+### 0.50.5
+
+* Use root package.json values if not in apidoc key by Nick Mitchell (#1164)
+* Fix search requiring lower-case input (#1173 by Alexander Weiss)
+* Add yarn berry compatibility (#1144 by 이호영)
+* Fix template path resolve (#1175 by Kevin Bull)
+* Update chinese locale (#1184 by Jun Ding)
+* Dependencies update
+
+### 0.50.4
+
+#### FIXED
+
+* Fix bug with loading the CSS file for single page mode (`--single`) (fix #1142)
+
 ### 0.50.3
 
 #### FIXED
